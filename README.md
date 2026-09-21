@@ -1,6 +1,6 @@
 # Responsible Use of AI in the Workplace
 
-A local-only React + TypeScript + Vite prototype for a Columbia Video Network instructional design interview. It contains an eight-stage asynchronous learning flow, simulated rubric feedback, revision and expert comparison, contextual practice, a downloadable STOP job aid, an action-plan generator, a personalized completion review, progress tracking, a design-rationale introduction, and a one-click demo reset.
+A local-only React + TypeScript + Vite prototype for a Columbia Video Network instructional design interview. It contains an eight-stage asynchronous learning flow, simulated rubric feedback, revision and expert comparison, contextual practice, a downloadable STOP job aid, an action-plan generator, a personalized completion review, progress tracking, a design-rationale introduction, presentation-friendly skip navigation, and a one-click demo reset.
 
 ## Run locally
 
@@ -25,7 +25,7 @@ pnpm preview
 - `public/columbia-engineering-logo.png` — replace this file with the official logo if needed. Keep the filename unchanged. The UI includes a text fallback if the file is unavailable.
 - `src/data/courseContent.ts` — screen names, objectives, STOP content, video transcript, expert responses, and the project’s design rationale.
 - `src/lib/feedback.ts` — deterministic keyword detection and simulated rubric feedback. No API or external service is used.
-- `src/App.tsx` — the seven-screen learner flow and all interaction state.
+- `src/App.tsx` — the eight-screen learner flow, presentation navigation, and all interaction state.
 - `src/styles.css` — responsive Columbia-inspired visual design.
 
 ## Adding OpenAI later

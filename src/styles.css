@@ -65,6 +65,8 @@ h2, h3 { color: var(--ink); }
 .secondary-button:hover:not(:disabled) { background: var(--pale); border-color: var(--sky); }
 .lesson-pagination { margin-top: 18px; display: flex; justify-content: space-between; align-items: center; }
 .lesson-pagination .primary-button { margin-top: 0; margin-left: auto; }
+.pagination-side { display: flex; align-items: center; gap: 12px; }
+.pagination-side small { color: #637b91; font-size: .76rem; font-weight: 700; }
 .scenario-box { background: #f5f9fc; border: 1px solid #ccdde9; border-radius: 10px; padding: 22px 24px; margin: 25px 0; }
 .scenario-box span, .part-label span, .result-heading > span, .expert-response > span, .takeaway > span, .comparison-grid article > span { display: block; color: var(--blue); font-size: .72rem; font-weight: 850; letter-spacing: .1em; margin-bottom: 8px; }
 .scenario-box p { font-family: Georgia, "Times New Roman", serif; color: #263e53; font-size: 1.18rem; line-height: 1.55; margin: 0; }
@@ -262,6 +264,8 @@ textarea:disabled, input:disabled { background: #f5f7f9; color: #556a7c; }
   .video-placeholder { height: 230px; }
   .celebration-hero { padding-inline: 10px; }
   .stop-recap-grid { grid-template-columns: repeat(2, 1fr); }
+  .lesson-pagination { align-items: flex-end; gap: 14px; }
+  .pagination-side { align-items: flex-start; flex-direction: column; gap: 7px; }
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation: none !important; transition: none !important; }
